@@ -11,6 +11,7 @@
 		77FF3E7F2A975C1E00CF0851 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FF3E7E2A975C1E00CF0851 /* ContentView.swift */; };
 		77FF3E812A975C1F00CF0851 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77FF3E802A975C1F00CF0851 /* Assets.xcassets */; };
 		77FF3E852A975C1F00CF0851 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77FF3E842A975C1F00CF0851 /* Preview Assets.xcassets */; };
+		77FF3E8C2A9760D100CF0851 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FF3E8B2A9760D100CF0851 /* DateFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		77FF3E802A975C1F00CF0851 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77FF3E822A975C1F00CF0851 /* TestCodeBeat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestCodeBeat.entitlements; sourceTree = "<group>"; };
 		77FF3E842A975C1F00CF0851 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		77FF3E8B2A9760D100CF0851 /* DateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				77FF3E7C2A975C1E00CF0851 /* TestCodeBeatApp.swift */,
 				77FF3E7E2A975C1E00CF0851 /* ContentView.swift */,
+				77FF3E8B2A9760D100CF0851 /* DateFormatter.swift */,
 				77FF3E802A975C1F00CF0851 /* Assets.xcassets */,
 				77FF3E822A975C1F00CF0851 /* TestCodeBeat.entitlements */,
 				77FF3E832A975C1F00CF0851 /* Preview Content */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77FF3E8C2A9760D100CF0851 /* DateFormatter.swift in Sources */,
 				77FF3E7F2A975C1E00CF0851 /* ContentView.swift in Sources */,
 				77FF3E7D2A975C1E00CF0851 /* TestCodeBeatApp.swift in Sources */,
 			);

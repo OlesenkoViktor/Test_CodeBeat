@@ -13,14 +13,26 @@ struct ContentView: View {
     
     private var i: Int = -1
     
+    let dateNow = Calendar.current.date(byAdding: .second, value: 1, to: Date.init())
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("\(i)")
+            Text("\(i): \(timeFormatter.string(from: dateNow!))")
         }
         .padding()
+    }
+    
+    var timeFormatter: DateFormatter {
+        let df = DateFormatter.init()
+        df.locale = .enUsPosix
+        df.dateFormat = Utils.is24h
+            ? "HH:mm"
+            : "h:mm a"
+        
+        return df
     }
 }
 
